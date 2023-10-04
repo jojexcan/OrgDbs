@@ -1,12 +1,12 @@
-# Klebsiella pneumoniae subsp. pneumoniae str. HS11286 OrgDb
+# Klebsiella pneumoniae OrgDb
 
 Genome wide annotation for Klebsiella pneumoniae subsp. pneumoniae str. HS11286 (taxid:[1125630](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1125630)).
 
 Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.62.2).
 
-To install the package, you first downloaded the folder [org.Kpneumoniae.eg.db](org.Kpneumoniae.eg.db) To install it in R, you can execute the following command:
+To install the package, you first downloaded the [org.Kpneumoniae.eg.db.tar.gz](org.Kpneumoniae.eg.db.tar.gz) package. To install it in R, you can execute the following command:
 
-  ```install.packages("./org.Kpneumoniae.eg.db", repos = NULL, type = "source")```
+  ```install.packages("org.Kpneumoniae.eg.db.tar.gz", repos = NULL, type = "source")```
 
 Make sure to provide the correct path to the folder where "org.Kpneumoniae.eg.db" is located.
 
