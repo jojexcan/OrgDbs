@@ -4,15 +4,14 @@ Genome wide annotation for Klebsiella pneumoniae subsp. pneumoniae str. HS11286 
 
 Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.62.2).
 
-To install the package, you first downloaded the [org.Kpneumoniae.eg.db.tar.gz](org.Kpneumoniae.eg.db.tar.gz) package. To install it in R, you can execute the following command:
+To install the package download the [org.Kpneumoniae.eg.db.tar.gz](org.Kpneumoniae.eg.db.tar.gz) package. In R, you can install executing the following command:
 
   ```install.packages("org.Kpneumoniae.eg.db.tar.gz", repos = NULL, type = "source")```
 
-Make sure to provide the correct path to the folder where "org.Kpneumoniae.eg.db" is located.
+Make sure to provide the correct path to the folder where "org.Kpneumoniae.eg.db.tar.gz" is located.
 
 After installing the package, you can check if you can load it correctly using the following command:
 
   ```library("org.Kpneumoniae.eg.db")```
 
 The date of consultation in the NCBI database for the creation of this database was *July 28, 2023*.
-  
